@@ -1,0 +1,63 @@
+body {
+    font-family: cursive;
+    background-image: url(https://www.curtlandry.com/wp-content/uploads/2024/01/CLM-wisdom-1.png);
+    background-size: cover;
+  /* Set the background image to be fixed, so it doesn't scroll with the page */
+  background-attachment: fixed;
+}
+input::placeholder {
+    font-family: cursive; /* Change the font family to cursive */
+    font-size: 16px; /* Change the font size to 16px */
+    /* color: #aaa;  */
+  }
+
+.container {
+    
+    border-radius: 25px;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(230, 223, 151);
+    border: 2px solid #966F33;
+    opacity: 0.7; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom:10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #f0ecee;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+    color: #050505;
+}
+
+input[type="submit"]:hover {
+    background-color: #141414;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+/* #error-message {
+    color: #red;
+    margin-top: 10px;
+} */
